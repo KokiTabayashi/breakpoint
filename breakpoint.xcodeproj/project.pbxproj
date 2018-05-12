@@ -15,6 +15,7 @@
 		E7AE2D2E20A6829B002709BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7AE2D2D20A6829B002709BA /* Assets.xcassets */; };
 		E7AE2D3120A6829B002709BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7AE2D2F20A6829B002709BA /* LaunchScreen.storyboard */; };
 		E7AE2D3E20A69934002709BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7AE2D3D20A69934002709BA /* GoogleService-Info.plist */; };
+		E7AE2D4020A69EAB002709BA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE2D3F20A69EAB002709BA /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E7AE2D3020A6829B002709BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7AE2D3220A6829B002709BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7AE2D3D20A69934002709BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E7AE2D3F20A69EAB002709BA /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		E7AE2D3C20A68413002709BA /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				E7AE2D3F20A69EAB002709BA /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				E7AE2D2920A68299002709BA /* SecondViewController.swift in Sources */,
 				E7AE2D2520A68299002709BA /* AppDelegate.swift in Sources */,
 				E7AE2D2720A68299002709BA /* FirstViewController.swift in Sources */,
+				E7AE2D4020A69EAB002709BA /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +407,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47SQKMHA2B;
 				INFOPLIST_FILE = breakpoint/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.kokitabayashi.breakpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -419,7 +426,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47SQKMHA2B;
 				INFOPLIST_FILE = breakpoint/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.kokitabayashi.breakpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
