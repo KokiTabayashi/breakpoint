@@ -21,6 +21,8 @@
 		E7AE2D4620A76405002709BA /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE2D4520A76405002709BA /* InsetTextField.swift */; };
 		E7AE2D4820A767F4002709BA /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE2D4720A767F4002709BA /* ShadowView.swift */; };
 		E7AE2D4A20A76A24002709BA /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE2D4920A76A24002709BA /* AuthService.swift */; };
+		E7E124D520A7C68F00C17B8B /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124D420A7C68F00C17B8B /* MeVC.swift */; };
+		E7E124D720A7F37400C17B8B /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124D620A7F37400C17B8B /* CreatePostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		E7AE2D4520A76405002709BA /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		E7AE2D4720A767F4002709BA /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		E7AE2D4920A76A24002709BA /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		E7E124D420A7C68F00C17B8B /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		E7E124D620A7F37400C17B8B /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				E7AE2D2820A68299002709BA /* GroupsVC.swift */,
 				E7AE2D4120A76360002709BA /* AuthVC.swift */,
 				E7AE2D4320A763A8002709BA /* LoginVC.swift */,
+				E7E124D420A7C68F00C17B8B /* MeVC.swift */,
+				E7E124D620A7F37400C17B8B /* CreatePostVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -271,12 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E124D520A7C68F00C17B8B /* MeVC.swift in Sources */,
 				E7AE2D4220A76360002709BA /* AuthVC.swift in Sources */,
 				E7AE2D2920A68299002709BA /* GroupsVC.swift in Sources */,
 				E7AE2D4420A763A8002709BA /* LoginVC.swift in Sources */,
 				E7AE2D4A20A76A24002709BA /* AuthService.swift in Sources */,
 				E7AE2D2520A68299002709BA /* AppDelegate.swift in Sources */,
 				E7AE2D4820A767F4002709BA /* ShadowView.swift in Sources */,
+				E7E124D720A7F37400C17B8B /* CreatePostVC.swift in Sources */,
 				E7AE2D2720A68299002709BA /* FeedVC.swift in Sources */,
 				E7AE2D4620A76405002709BA /* InsetTextField.swift in Sources */,
 				E7AE2D4020A69EAB002709BA /* DataService.swift in Sources */,
