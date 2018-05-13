@@ -24,6 +24,7 @@
 		E7E124D520A7C68F00C17B8B /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124D420A7C68F00C17B8B /* MeVC.swift */; };
 		E7E124D720A7F37400C17B8B /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124D620A7F37400C17B8B /* CreatePostVC.swift */; };
 		E7E124D920A7FC8000C17B8B /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124D820A7FC8000C17B8B /* UIViewExt.swift */; };
+		E7E124DB20A80C4700C17B8B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124DA20A80C4700C17B8B /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		E7E124D420A7C68F00C17B8B /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		E7E124D620A7F37400C17B8B /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		E7E124D820A7FC8000C17B8B /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		E7E124DA20A80C4700C17B8B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +120,6 @@
 		E7AE2D3820A683A9002709BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E7AE2D2620A68299002709BA /* FeedVC.swift */,
 				E7AE2D2820A68299002709BA /* GroupsVC.swift */,
 				E7AE2D4120A76360002709BA /* AuthVC.swift */,
 				E7AE2D4320A763A8002709BA /* LoginVC.swift */,
@@ -133,6 +134,7 @@
 			children = (
 				E7AE2D4520A76405002709BA /* InsetTextField.swift */,
 				E7AE2D4720A767F4002709BA /* ShadowView.swift */,
+				E7E124DA20A80C4700C17B8B /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -147,6 +149,7 @@
 		E7AE2D3B20A683D7002709BA /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E7AE2D2620A68299002709BA /* FeedVC.swift */,
 				E7E124D820A7FC8000C17B8B /* UIViewExt.swift */,
 			);
 			path = Extensions;
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7E124D920A7FC8000C17B8B /* UIViewExt.swift in Sources */,
+				E7E124DB20A80C4700C17B8B /* FeedCell.swift in Sources */,
 				E7E124D520A7C68F00C17B8B /* MeVC.swift in Sources */,
 				E7AE2D4220A76360002709BA /* AuthVC.swift in Sources */,
 				E7AE2D2920A68299002709BA /* GroupsVC.swift in Sources */,
