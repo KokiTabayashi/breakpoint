@@ -25,6 +25,7 @@
 		E7E124D720A7F37400C17B8B /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124D620A7F37400C17B8B /* CreatePostVC.swift */; };
 		E7E124D920A7FC8000C17B8B /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124D820A7FC8000C17B8B /* UIViewExt.swift */; };
 		E7E124DB20A80C4700C17B8B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124DA20A80C4700C17B8B /* FeedCell.swift */; };
+		E7E124DD20A81D5000C17B8B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124DC20A81D5000C17B8B /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		E7E124D620A7F37400C17B8B /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		E7E124D820A7FC8000C17B8B /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		E7E124DA20A80C4700C17B8B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		E7E124DC20A81D5000C17B8B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		E7AE2D3820A683A9002709BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E7AE2D2620A68299002709BA /* FeedVC.swift */,
 				E7AE2D2820A68299002709BA /* GroupsVC.swift */,
 				E7AE2D4120A76360002709BA /* AuthVC.swift */,
 				E7AE2D4320A763A8002709BA /* LoginVC.swift */,
@@ -142,6 +145,7 @@
 		E7AE2D3A20A683C9002709BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E7E124DC20A81D5000C17B8B /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,7 +153,6 @@
 		E7AE2D3B20A683D7002709BA /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				E7AE2D2620A68299002709BA /* FeedVC.swift */,
 				E7E124D820A7FC8000C17B8B /* UIViewExt.swift */,
 			);
 			path = Extensions;
@@ -296,6 +299,7 @@
 				E7AE2D2720A68299002709BA /* FeedVC.swift in Sources */,
 				E7AE2D4620A76405002709BA /* InsetTextField.swift in Sources */,
 				E7AE2D4020A69EAB002709BA /* DataService.swift in Sources */,
+				E7E124DD20A81D5000C17B8B /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
