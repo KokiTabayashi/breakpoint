@@ -28,6 +28,7 @@
 		E7E124DD20A81D5000C17B8B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124DC20A81D5000C17B8B /* Message.swift */; };
 		E7E124DF20A9061D00C17B8B /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124DE20A9061D00C17B8B /* CreateGroupsVC.swift */; };
 		E7E124E120A90B9800C17B8B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124E020A90B9800C17B8B /* UserCell.swift */; };
+		E7E124E320A9455500C17B8B /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124E220A9455500C17B8B /* GroupCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		E7E124DC20A81D5000C17B8B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		E7E124DE20A9061D00C17B8B /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		E7E124E020A90B9800C17B8B /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		E7E124E220A9455500C17B8B /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				E7AE2D4720A767F4002709BA /* ShadowView.swift */,
 				E7E124DA20A80C4700C17B8B /* FeedCell.swift */,
 				E7E124E020A90B9800C17B8B /* UserCell.swift */,
+				E7E124E220A9455500C17B8B /* GroupCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				E7E124D920A7FC8000C17B8B /* UIViewExt.swift in Sources */,
 				E7E124DB20A80C4700C17B8B /* FeedCell.swift in Sources */,
 				E7E124D520A7C68F00C17B8B /* MeVC.swift in Sources */,
+				E7E124E320A9455500C17B8B /* GroupCell.swift in Sources */,
 				E7AE2D4220A76360002709BA /* AuthVC.swift in Sources */,
 				E7AE2D2920A68299002709BA /* GroupsVC.swift in Sources */,
 				E7AE2D4420A763A8002709BA /* LoginVC.swift in Sources */,
