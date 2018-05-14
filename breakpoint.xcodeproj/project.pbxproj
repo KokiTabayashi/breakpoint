@@ -26,6 +26,8 @@
 		E7E124D920A7FC8000C17B8B /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124D820A7FC8000C17B8B /* UIViewExt.swift */; };
 		E7E124DB20A80C4700C17B8B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124DA20A80C4700C17B8B /* FeedCell.swift */; };
 		E7E124DD20A81D5000C17B8B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124DC20A81D5000C17B8B /* Message.swift */; };
+		E7E124DF20A9061D00C17B8B /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124DE20A9061D00C17B8B /* CreateGroupsVC.swift */; };
+		E7E124E120A90B9800C17B8B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124E020A90B9800C17B8B /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		E7E124D820A7FC8000C17B8B /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		E7E124DA20A80C4700C17B8B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		E7E124DC20A81D5000C17B8B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E7E124DE20A9061D00C17B8B /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
+		E7E124E020A90B9800C17B8B /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,7 @@
 				E7AE2D4320A763A8002709BA /* LoginVC.swift */,
 				E7E124D420A7C68F00C17B8B /* MeVC.swift */,
 				E7E124D620A7F37400C17B8B /* CreatePostVC.swift */,
+				E7E124DE20A9061D00C17B8B /* CreateGroupsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				E7AE2D4520A76405002709BA /* InsetTextField.swift */,
 				E7AE2D4720A767F4002709BA /* ShadowView.swift */,
 				E7E124DA20A80C4700C17B8B /* FeedCell.swift */,
+				E7E124E020A90B9800C17B8B /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -293,6 +299,8 @@
 				E7AE2D2920A68299002709BA /* GroupsVC.swift in Sources */,
 				E7AE2D4420A763A8002709BA /* LoginVC.swift in Sources */,
 				E7AE2D4A20A76A24002709BA /* AuthService.swift in Sources */,
+				E7E124DF20A9061D00C17B8B /* CreateGroupsVC.swift in Sources */,
+				E7E124E120A90B9800C17B8B /* UserCell.swift in Sources */,
 				E7AE2D2520A68299002709BA /* AppDelegate.swift in Sources */,
 				E7AE2D4820A767F4002709BA /* ShadowView.swift in Sources */,
 				E7E124D720A7F37400C17B8B /* CreatePostVC.swift in Sources */,
