@@ -29,6 +29,7 @@
 		E7E124DF20A9061D00C17B8B /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124DE20A9061D00C17B8B /* CreateGroupsVC.swift */; };
 		E7E124E120A90B9800C17B8B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124E020A90B9800C17B8B /* UserCell.swift */; };
 		E7E124E320A9455500C17B8B /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124E220A9455500C17B8B /* GroupCell.swift */; };
+		E7E124E520A94A2000C17B8B /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124E420A94A2000C17B8B /* Group.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		E7E124DE20A9061D00C17B8B /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		E7E124E020A90B9800C17B8B /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		E7E124E220A9455500C17B8B /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		E7E124E420A94A2000C17B8B /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				E7E124DC20A81D5000C17B8B /* Message.swift */,
+				E7E124E420A94A2000C17B8B /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				E7AE2D4420A763A8002709BA /* LoginVC.swift in Sources */,
 				E7AE2D4A20A76A24002709BA /* AuthService.swift in Sources */,
 				E7E124DF20A9061D00C17B8B /* CreateGroupsVC.swift in Sources */,
+				E7E124E520A94A2000C17B8B /* Group.swift in Sources */,
 				E7E124E120A90B9800C17B8B /* UserCell.swift in Sources */,
 				E7AE2D2520A68299002709BA /* AppDelegate.swift in Sources */,
 				E7AE2D4820A767F4002709BA /* ShadowView.swift in Sources */,
