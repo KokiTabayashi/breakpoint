@@ -400,7 +400,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sr3-5N-Dm7">
-                                <rect key="frame" x="0.0" y="103" width="375" height="564"/>
+                                <rect key="frame" x="0.0" y="103" width="375" height="504"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupFeedCell" rowHeight="100" id="3IF-Lt-Sca" customClass="GroupFeedCell" customModule="breakpoint" customModuleProvider="target">
@@ -503,9 +503,9 @@
                             <constraint firstItem="88c-fB-3AQ" firstAttribute="bottom" secondItem="S7b-Se-R8j" secondAttribute="bottom" id="7WY-Yp-8JS"/>
                             <constraint firstItem="Fa5-QI-QgH" firstAttribute="top" secondItem="S7b-Se-R8j" secondAttribute="top" id="9Vc-Ad-MIp"/>
                             <constraint firstItem="88c-fB-3AQ" firstAttribute="leading" secondItem="Mca-nc-A8y" secondAttribute="leading" id="9px-S0-d5y"/>
+                            <constraint firstItem="88c-fB-3AQ" firstAttribute="top" secondItem="sr3-5N-Dm7" secondAttribute="bottom" id="ALd-J6-Ejy"/>
                             <constraint firstItem="Fa5-QI-QgH" firstAttribute="trailing" secondItem="Mca-nc-A8y" secondAttribute="trailing" id="JW4-wE-Tqk"/>
                             <constraint firstItem="Mca-nc-A8y" firstAttribute="trailing" secondItem="pEh-uM-tmE" secondAttribute="trailing" constant="16" id="O8n-pz-r1f"/>
-                            <constraint firstItem="sr3-5N-Dm7" firstAttribute="bottom" secondItem="S7b-Se-R8j" secondAttribute="bottom" id="XvI-Ig-cqF"/>
                             <constraint firstItem="pEh-uM-tmE" firstAttribute="top" secondItem="Fa5-QI-QgH" secondAttribute="bottom" constant="8" id="gWO-J4-ysE"/>
                             <constraint firstItem="sr3-5N-Dm7" firstAttribute="leading" secondItem="Mca-nc-A8y" secondAttribute="leading" id="jlH-w3-00i"/>
                             <constraint firstItem="pEh-uM-tmE" firstAttribute="leading" secondItem="Mca-nc-A8y" secondAttribute="leading" constant="16" id="kqY-FQ-Om0"/>
