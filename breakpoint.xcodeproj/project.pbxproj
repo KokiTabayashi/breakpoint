@@ -32,6 +32,7 @@
 		E7E124E520A94A2000C17B8B /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124E420A94A2000C17B8B /* Group.swift */; };
 		E7E124E720A95E0000C17B8B /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124E620A95E0000C17B8B /* GroupFeedCell.swift */; };
 		E7E124E920A95E9F00C17B8B /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124E820A95E9F00C17B8B /* GroupFeedVC.swift */; };
+		E7E124ED20AAA83E00C17B8B /* UIVewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E124EC20AAA83E00C17B8B /* UIVewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		E7E124E420A94A2000C17B8B /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		E7E124E620A95E0000C17B8B /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
 		E7E124E820A95E9F00C17B8B /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
+		E7E124EC20AAA83E00C17B8B /* UIVewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVewControllerExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				E7E124D820A7FC8000C17B8B /* UIViewExt.swift */,
+				E7E124EC20AAA83E00C17B8B /* UIVewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				E7E124E720A95E0000C17B8B /* GroupFeedCell.swift in Sources */,
 				E7AE2D4420A763A8002709BA /* LoginVC.swift in Sources */,
 				E7AE2D4A20A76A24002709BA /* AuthService.swift in Sources */,
+				E7E124ED20AAA83E00C17B8B /* UIVewControllerExt.swift in Sources */,
 				E7E124DF20A9061D00C17B8B /* CreateGroupsVC.swift in Sources */,
 				E7E124E520A94A2000C17B8B /* Group.swift in Sources */,
 				E7E124E120A90B9800C17B8B /* UserCell.swift in Sources */,

@@ -16,8 +16,6 @@ class CreatePostVC: UIViewController {
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var sendBtn: UIButton!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         textView.delegate = self
@@ -33,7 +31,8 @@ class CreatePostVC: UIViewController {
     @IBAction func sendBtnWasPressed(_ sender: Any) {
         if textView.text != nil && textView.text != "Say something here ..." {
             sendBtn.isEnabled = false
-            DataService.instance.uploadPost(withMessage: textView.text, forUID: (Auth.auth().currentUser?.uid)!, withGroupKey: nil) { (isComplete) in
+            
+            DataService.instance.uploadPost(withMessage: textView.text, forUID: (Auth.auth().currentUser?.uid)!, withGroupKey: nil, sendComplete: { (isComplete) in
                 if isComplete {
                     self.sendBtn.isEnabled = true
                     self.dismiss(animated: true, completion: nil)
@@ -41,7 +40,18 @@ class CreatePostVC: UIViewController {
                     self.sendBtn.isEnabled = true
                     print("There was an error!")
                 }
-            }
+            })
+            
+            
+//            DataService.instance.uploadPost(withMessage: textView.text, forUID: (Auth.auth().currentUser?.uid)!, withGroupKey: nil) { (isComplete) in
+//                if isComplete {
+//                    self.sendBtn.isEnabled = true
+//                    self.dismiss(animated: true, completion: nil)
+//                } else {
+//                    self.sendBtn.isEnabled = true
+//                    print("There was an error!")
+//                }
+//            }
         }
         
     }
@@ -58,9 +68,3 @@ extension CreatePostVC: UITextViewDelegate {
     }
 
 }
-
-
-
-
-
-

@@ -517,6 +517,7 @@
                     </view>
                     <connections>
                         <outlet property="groupTitleLbl" destination="Wzi-Iw-rOa" id="U3w-Xe-yK9"/>
+                        <outlet property="mainView" destination="S7b-Se-R8j" id="7eJ-1l-cTP"/>
                         <outlet property="membersLbl" destination="pEh-uM-tmE" id="jcf-bo-Qcu"/>
                         <outlet property="messageTextField" destination="mtF-OQ-Cdx" id="sSh-2T-HoT"/>
                         <outlet property="sendBtn" destination="0zu-ux-tmg" id="MbH-Dp-PJa"/>

@@ -17,6 +17,7 @@ class GroupFeedVC: UIViewController {
     @IBOutlet weak var sendBtnView: UIView!
     @IBOutlet weak var messageTextField: InsetTextField!
     @IBOutlet weak var sendBtn: UIButton!
+    @IBOutlet var mainView: UIView!
     
     var group: Group?
     var groupMessages = [Message]()
@@ -27,7 +28,8 @@ class GroupFeedVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        sendBtnView.bindToKeyboard()
+//        sendBtnView.bindToKeyboard()
+        mainView.bindToKeyboard()
         tableView.delegate = self
         tableView.dataSource = self
     }
@@ -37,19 +39,31 @@ class GroupFeedVC: UIViewController {
         groupTitleLbl.text = group?.groupTitle
         DataService.instance.getEmailsFor(group: group!) { (returnEmails) in
             self.membersLbl.text = returnEmails.joined(separator: ", ")
+            self.tableView.estimatedRowHeight = 0
+            self.tableView.estimatedSectionHeaderHeight = 0
+            self.tableView.estimatedSectionFooterHeight = 0
         }
 //        membersLbl.text = group?.members.joined(separator: ", ")
-        
-        DataService.instance.REF_GROUPS.observeSingleEvent(of: .value) { (snapshot) in
+        DataService.instance.REF_GROUPS.observe(.value) { (snapshot) in
             DataService.instance.getAllMessagesFor(desiredGroup: self.group!, handler: { (returnedGroupMessages) in
                 self.groupMessages = returnedGroupMessages
                 self.tableView.reloadData()
                 
                 if self.groupMessages.count > 0 {
-                    self.tableView.scrollToRow(at: IndexPath(row: self.groupMessages.count - 1, section: 0), at: .none, animated: true)
+                    self.tableView.scrollToRow(at: IndexPath(row: self.groupMessages.count - 1, section: 0), at: UITableViewScrollPosition.none, animated: true)
                 }
             })
         }
+//        DataService.instance.REF_GROUPS.observeSingleEvent(of: .value) { (snapshot) in
+//            DataService.instance.getAllMessagesFor(desiredGroup: self.group!, handler: { (returnedGroupMessages) in
+//                self.groupMessages = returnedGroupMessages
+//                self.tableView.reloadData()
+//
+//                if self.groupMessages.count > 0 {
+//                    self.tableView.scrollToRow(at: IndexPath(row: self.groupMessages.count - 1, section: 0), at: .none, animated: true)
+//                }
+//            })
+//        }
     }
     
     @IBAction func sendBtnWasPressed(_ sender: Any) {
@@ -67,7 +81,7 @@ class GroupFeedVC: UIViewController {
     }
     
     @IBAction func backBtnWasPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        dismissDetail()
     }
 }
 
@@ -89,14 +103,3 @@ extension GroupFeedVC: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
 }
-
-
-
-
-
-
-
-
-
-
-
