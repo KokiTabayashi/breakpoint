@@ -22,10 +22,22 @@ class FeedVC: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        DataService.instance.getAllFeedMessages { (returnedMessagesArray) in
-            self.messageArray = returnedMessagesArray.reversed()
-            self.tableView.reloadData()
+        
+        // Original(not real time)
+//        DataService.instance.getAllFeedMessages { (returnedMessagesArray) in
+//            self.messageArray = returnedMessagesArray.reversed()
+//            self.tableView.reloadData()
+//        }
+        
+        // This will make real time update.
+        DataService.instance.REF_FEED.observe(.value) { (snapshot) in
+            DataService.instance.getAllFeedMessages(handler: { (returnedMessagesArray) in
+                self.messageArray = returnedMessagesArray.reversed()
+                self.tableView.reloadData()
+            })
         }
+        //
+        
     }
     
     // test
@@ -58,6 +70,8 @@ extension FeedVC: UITableViewDelegate, UITableViewDataSource {
         DataService.instance.getUsername(forUID: message.senderId) { (returnedUsername) in
             cell.configureCell(profileImage: image!, email: returnedUsername, content: message.content)
         }
+        
+        
 //        cell.configureCell(profileImage: image!, email: message.senderId, content: message.content)
         return cell
     }
